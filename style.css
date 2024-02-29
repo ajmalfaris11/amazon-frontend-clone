@@ -271,3 +271,121 @@ header{
 .panel-item-border:hover{
     border-color: white;
 }
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*============= Main start from here ============ */
+
+  section{
+   display: flex;
+   justify-content: center;
+  }
+
+  .first-section{
+    width: 100%;
+    height: 300px;
+    background-image: url(img/61CiqVTRBEL._SX3000_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-size: 130%;
+  }
+  .inlinesection{
+    margin-inline: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#msg-ribben{
+    margin-top: 250px;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    padding: 10px 14px 10px 14px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+}
+
+#msg-ribben a{
+    text-decoration: none;
+    color: #007185;
+    font-weight: 500;
+}
+
+#msg-ribben a:hover ,.main-cards a:hover{
+    color: #C7511F;
+    text-decoration:underline;
+}
+
+/* ----------- first card section ---------- */
+
+#first-card-section{
+    height: 440px;
+    background: linear-gradient(to top,#E3E6E6, #4501AE); 
+
+    
+}
+
+.main-cards{
+    width: 320px;
+    height: 380px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    
+
+}
+
+/* ----------- Second card section ---------- */
+
+#second-card-div{
+    background-color:#E3E6E6;
+    height: 440px;
+
+}
+
+#third-card-div{
+    background-color:#E3E6E6;
+    height: 440px;
+
+}
+
+.four-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.four-items div{
+    width: 150px;
+    height: 130px;
+    overflow-block: hidden;
+    margin-right: 15px; 
+    margin-block: 10px;
+}
+.four-items img{
+   width: 125%; 
+   margin-left: -20px;
+
+}
+
+.main-card-item span{
+    font-size: small;
+}
+
+.main-cards .seemore{
+    margin-top: 30px;
+}
+.main-cards a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #007185;
+    font-weight: 600;
+}
