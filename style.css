@@ -7,7 +7,7 @@
 }
 
 body{
-    min-width: 920px;
+    min-width: 1160px;
 }
 header{
     width: 100%;
@@ -340,7 +340,7 @@ header{
     margin: 10px;
     margin-bottom: 20px;
     padding: 20px;
-    
+    overflow: hidden;
     
 
 }
@@ -359,19 +359,21 @@ header{
 
 }
 
+
+/** ------ four items card ----- **/
+
 .four-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .four-items div{
-    width: 150px;
+    width: 170px;
     height: 130px;
-    overflow-block: hidden;
-    margin-right: 15px; 
     margin-block: 10px;
+    overflow: hidden;
 }
 .four-items img{
-   width: 125%; 
+   width: 100%; 
    margin-left: -20px;
 
 }
@@ -388,4 +390,20 @@ header{
     text-decoration: none;
     color: #007185;
     font-weight: 600;
+}
+
+/** ------ 1 item card ----- **/
+
+.one-item {
+    width: 320px;
+    background-color: red;
+    margin-block: 10px;
+    height: 290px;
+    overflow: hidden;
+}
+.one-item img{
+    width: 115%;
+    margin-left: -25px;
+
+    
 }
