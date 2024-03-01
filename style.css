@@ -347,43 +347,43 @@ header{
 
 /* ----------- Second card section ---------- */
 
-#second-card-div{
+h2{
+    font-size: 1.3rem;
+}
+
+#second-card-div, #third-card-div, #fourth-card-div, #fifth-card-div{
     background-color:#E3E6E6;
     height: 440px;
 
 }
-
-#third-card-div{
-    background-color:#E3E6E6;
-    height: 440px;
-
-}
-
 
 /** ------ four items card ----- **/
 
 .four-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-.four-items div{
-    width: 170px;
-    height: 130px;
-    margin-block: 10px;
     overflow: hidden;
 }
+.four-items div{
+    width: 155px;
+    height: 150px;
+    margin-block: 10px;
+    overflow: hidden;
+    margin-right: 15px;
+}
 .four-items img{
-   width: 100%; 
-   margin-left: -20px;
+   width: 120%; 
+   margin-left: -10px;
 
 }
 
 .main-card-item span{
     font-size: small;
+   
 }
 
 .main-cards .seemore{
-    margin-top: 30px;
+    margin-top: -3px;
 }
 .main-cards a{
     font-size: 12px;
@@ -396,14 +396,100 @@ header{
 
 .one-item {
     width: 320px;
-    background-color: red;
     margin-block: 10px;
-    height: 290px;
+    height: 310px;
     overflow: hidden;
+    margin-bottom: 20px;
+
 }
 .one-item img{
-    width: 115%;
+    width: 120%;
     margin-left: -25px;
 
     
+}
+
+.one-item .seemore {
+    margin-top: 50px;
+}
+
+/** ------ second-card-div item card ----- **/
+
+.three-by-one-card{
+    padding-block: 10px;
+    overflow: hidden;
+}
+.three-by-one-card .larg-img{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+
+.larg-img img{
+    margin-left: -65px;
+    width: 140%;
+}
+
+.three-in-oneByThree{
+    width: 100%;
+    height: 100px;
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.three-in-oneByThree div{
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+    padding-bottom: 10px;
+
+}
+
+.three-in-oneByThree div img{
+    width: 115%;
+    margin-left: -10px;
+}
+.three-in-oneByThree p{
+    position: absolute;
+}
+
+/** ------ deals item card ----- **/
+
+
+.deal-card-img{
+    height: 100%;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.deal-card-img img{
+    width: 100%;
+}
+.span-btn{
+    background-color:#CC0C39;
+    color: white;
+    padding: 5px;
+    font-size: small;
+    border-radius: 2px;
+}
+
+.ltd-deal{
+    color: #CC0C39;
+    font-size: small;
+    font-weight: 600;
+}
+
+.deal{
+    margin-bottom: 10px;
+}
+.deal-discription{
+    margin-bottom: 50px;
+}
+
+
+.deal-discription p{
+    font-size: small;
 }
