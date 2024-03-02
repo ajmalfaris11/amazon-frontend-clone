@@ -2,12 +2,11 @@
     font-family: Arial;
     margin: 0;
     padding: 0;
-    border: border-box;
 
 }
 
 body{
-    min-width: 1160px;
+    min-width: 1150px;
 }
 header{
     width: 100%;
@@ -493,3 +492,83 @@ h2{
 .deal-discription p{
     font-size: small;
 }
+
+
+/* *------------Scroll section start from here--------------* */
+
+.scroll-section{
+    height: 300px;
+    width: 100%;
+    background-color: #E3E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.scroll-div{
+    width:1090px;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    padding: 15px;
+}
+
+.scroll-imgs{
+    width:100%;
+    height: 230px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.scroll-imgs img{
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.sp-now-div{
+    box-sizing: border-box;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+
+}
+.sp-now-div span{
+    font-size: 14px;
+    color: #007185;
+}
+.sp-now-div span:hover{
+    color: #CC0C39;
+    text-decoration: underline;
+}
+
+.zoom-out-img{
+    height: 80%;
+}
+/* ================ Scrollbar design =============== */
+
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #dcdada;
+    border-radius:12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
