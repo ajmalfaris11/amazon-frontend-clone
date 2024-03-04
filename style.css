@@ -723,3 +723,35 @@ hr {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+/** ============ Footer section ==========**/
+
+footer{
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+footer a{
+    color:#DDDDDD;
+    font-size: 14px;
+}
+.back-to-top{
+    width: 100%;
+    height:20px;
+    padding: 15px 0px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #304155;
+    
+}
+
+.back-to-top a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.back-to-top:hover{
+    background-color: #485769;
+}
